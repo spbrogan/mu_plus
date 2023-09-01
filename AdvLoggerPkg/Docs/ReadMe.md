@@ -112,8 +112,6 @@ The following changes should be in the family .dsc where the processor specific 
 
 ```inf
 [PcdsFixedAtBuild.common]
-  gAdvLoggerPkgTokenSpaceGuid.PcdAdvancedLoggerPreMemPages|24
-
   #Advanced Logger configuration
   gAdvLoggerPkgTokenSpaceGuid.PcdAdvancedLoggerBase         | 0xFA000000 # Must be TemporaryRamBase
   gAdvLoggerPkgTokenSpaceGuid.PcdAdvancedLoggerCarBase      | 0xFA200000 # Address for CAR memory
